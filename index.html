@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easter Bunny</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Love+Ya+Like+A+Sister&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Love+Ya+Like+A+Sister&display=swap');
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>The Easter Bunny</h1>
+      <img src="images/easter-bunny-150-profile.png">
+    </header>
+    <nav id="myTopnav" class="topnav">
+        <a href="index.html">Home</a>
+        <a href="faq.html">FAQs</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="responsive.html">Responsive Example</a>
+        <a href="responsiveNav.html">Responsive Menu</a>
+        <a href="responsiveNavMenu.html">Responsive JavaScript</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">Menu</a>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Overview</h2>
+        <article>
+          <h3>This Page Content</h3>
+          <p>This is a sample page to demonstrate some of the concepts related to the assignments in the web development class. I acquired much of the information about my avatar from Wikipedia. All I had to do is copy, paste and clean up the odd notations. Wikipedia has a fair use policy allowing us to use their content. Thanks, Wikipedia.</p>
+          <p>Your first pages in the class should only have HTML tags as instructed in the assignment. The goal is to begin with well-formed standards-compliant code. You should not add any images, CSS styles or JavaScript at this time.</p>
+        </article>
+        <article>
+          <h3>Your Pages</h3>
+          <p>The pages for your site should have content about your avatar. Each students needs to create their own unique site. Please do not copy/paste others' code without significant changes. It is allowed for you to use the sample code from the assignment instructor's notes to give you a start, but you must embellish the code and add content specific to your project. Simple copy/paste without significant changes will result in a diminished grade.</p>
+        </article>
+        <h2>My Avatar</h2>
+        <article>
+          <h3>The Easter Bunny</h3>
+          <p>The Easter Bunny (also called the Easter Rabbit or Easter Hare) is a folkloric figure and symbol of Easter, depicted as a rabbit—sometimes dressed with clothes—bringing Easter eggs. Originating among German Lutherans, the "Easter Hare" originally played the role of a judge, evaluating whether children were good or disobedient in behavior at the start of the season of Eastertide, similar to the "naughty or nice" list made by Santa Claus. As part of the legend, the creature carries colored eggs in its basket, as well as candy, and sometimes toys, to the homes of children. As such, the Easter Bunny again shows similarities to Santa (or the Christkind) and Christmas by bringing gifts to children on the night before a holiday. The custom was first mentioned in Georg Franck von Franckenau's De ovis paschalibus ('About Easter eggs') in 1682, referring to a German tradition of an Easter Hare bringing eggs for the children. </p>
+        </article>
+        <article>
+          <h3>Rabbits and Hares</h3>
+          <p>The hare was a popular motif in medieval church art. In ancient times, it was widely believed (as by Pliny, Plutarch, Philostratus, and Aelian) that the hare was a hermaphrodite. The idea that a hare could reproduce without loss of virginity led to an association with the Virgin Mary, with hares sometimes occurring in illuminated manuscripts and Northern European paintings of the Virgin and Christ Child. It may also have been associated with the Holy Trinity, as in the three hares motif.</p>
+        </article>
+        <article>
+          <h3>Eggs</h3>
+          <p>Eggs have been used as fertility symbols since antiquity. Eggs became a symbol in Christianity associated with rebirth as early as the 1st century AD, via the iconography of the Phoenix egg, and they became associated with Easter specifically in medieval Europe, when eating them was prohibited during the fast of Lent. A common practice in England at that time was for children to go door-to-door begging for eggs on the Saturday before Lent began. People handed out eggs as special treats for children prior to their fast.</p>
+          <p>As a special dish, eggs would probably have been decorated as part of the Easter celebrations. Later, German Protestants retained the custom of eating colored eggs for Easter, though they did not continue the tradition of fasting. Eggs boiled with some flowers change their color, bringing the spring into the homes, and some over time added the custom of decorating the eggs. Many Christians of the Eastern Orthodox Church to this day typically dye their Easter eggs red, the color of blood, in recognition of the blood of the sacrificed Christ (and, of the renewal of life in springtime). Some also use the color green, in honor of the new foliage emerging after the long-dead time of winter. The Ukrainian art of decorating eggs for Easter, known as pysanky, dates to ancient, pre-Christian times. Similar variants of this form of artwork are seen amongst other eastern and central European cultures.</p>
+          <p>The idea of an egg-giving hare went to the U.S. in the 18th century. Protestant German immigrants in the Pennsylvania Dutch area told their children about the "Osterhase" (sometimes spelled "Oschter Haws"). Hase means "hare", not rabbit, and in Northwest European folklore the "Easter Bunny" indeed is a hare. According to the legend, only good children received gifts of colored eggs in the nests that they made in their caps and bonnets before Easter.</p>
+        </article>
+        <h2>In Summary</h2>
+        <article>
+          <h3>Enough Content</h3>
+          <p>You need enough content to thoroghly populate your page. The content should cause the page to be long enough to need to scroll. Keep copy/pasting content from Wikipedia until you have enough content to scroll. You will use this page later to embellish it with styles, color, formatting and layouts.</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <h2>My Avatar The Easter Bunny</h2>
+			<p>Dallas College WebDev &copy; 2021</p>
+    </footer>
+    <script>
+      function toggleMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
