@@ -1,0 +1,186 @@
+/* structural elements styles */ 
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body {
+	background-color: #B2D732;
+}
+main {
+	color: #202020;
+}
+header {
+	background-color: #2E6C85;
+	width: 100%;
+}
+header img {
+	position: absolute;
+	top: 10px;
+	right: 10%;
+	z-index: 5;
+	width: auto;
+	max-width: 15vw;
+	height: auto;
+}
+footer {
+	text-align: center;
+	background-color: #092834;
+	color: #B2D732;
+	clear: both;
+}
+footer h2 {
+	color: #B2D732
+}
+
+/* heading styles */
+h1 {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 5vw;
+	color: #B2D732;
+	text-align: center;
+	text-shadow: 3px 2px 5px #202020;
+	padding: 2vw;
+	margin: 0px;
+}
+h2, h4, h5, figcaption, dt, legend {
+	color: #C04402;
+	font-family: 'Architects Daughter', cursive;
+	margin-top: 1em;
+}
+h3 {
+	color: #2E6C85;
+	margin-top: 1em;
+}
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.35;
+	margin-top: 1em;
+}
+dl {
+	border: solid medium #092834;
+	border-radius: 1em;
+	padding: 0 1.5em 1em;
+	margin: 1em;
+}
+dd {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.35;
+	margin-top: 1em;
+}
+dd a {
+	font-size: small;
+}
+ol {
+	margin-left: 2em;
+	line-height: 1.5em;
+}
+
+/* figures and images */
+.gallery-container {
+	border: solid medium #092834;
+	border-radius: 1em;
+	padding: 1em;
+	width: 25vw;
+	margin: 1vw auto;
+}
+figure img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 150px;
+	width: 100%;
+	height: auto;
+}
+figcaption {
+	text-align: center;
+}
+
+/* table styles */
+table, th, td {
+	border: 1px solid #B2D732;
+	padding: 4px;
+	margin: 6px;
+	background-color: whitesmoke;
+}
+th {
+	width: 150px;
+	color: #2E6C85;
+}
+td.data {
+	text-align: center;
+}
+td {
+	color: #092834;
+}
+.accent1 {
+	background-color: #092834;
+	color: #B2D732;
+}
+.error {
+	color: #FE2712;
+}
+
+/* blockquote styles */
+blockquote {
+	border-style: solid;
+	border-width: 0px 0px 0px 10px;
+	border-color: #B2D732;
+	font-size: 1.75vw;
+	padding: 15px;
+	overflow: hidden;
+	z-index: 2;
+	max-width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+blockquote::first-line {
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-size: 2.25vw;
+	color: whitesmoke;
+}
+
+/* link styles */
+a {
+	color: #092834;
+}
+a:visited {
+	color: #092834;
+	text-decoration: none;
+}
+a:hover {
+	color: #2E6C85; 
+	text-decoration: none;
+}
+
+/* form styles */
+fieldset {
+	padding: 1em;
+	border-radius: 1em;
+}
+form p {
+	padding: 1vw;
+	margin-bottom: 6px;
+}
+input[type=submit] {
+	background-color: #092834;
+	color: whitesmoke;
+	font-size: large;
+}
+input[type=reset] {
+	background-color: #C04402;
+	color: whitesmoke;
+	font-size: large;
+}
+input {
+	border: none;
+	border-bottom: 1.5px solid #092834;
+	padding: 3px;
+}
+textarea {
+	width: 100%;
+}

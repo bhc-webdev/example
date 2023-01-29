@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Easter Bunny</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/layout.css">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Love+Ya+Like+A+Sister&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Love+Ya+Like+A+Sister&display=swap');
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<h1>The Photo Gallery</h1>
+			<img src="images/easter-bunny-150-profile.png" alt="Site Logo Bunny Head">
+		</header>
+		<nav id="myTopnav" class="topnav">
+			<a href="index.html">Home</a>
+			<a href="faq.html">FAQs</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="contact-us.html">Contact Us</a>
+			<a href="javascript:void(0);" class="icon" onclick="toggleMenu()">Menu</a>
+		</nav>
+
+		<main>
+			<h2>Favorite Pictures</h2>
+			<p>Please enjoy our avatar images.</p>
+			<div class="gallery-grid">
+				<div class="gallery-container">
+					<figure>
+						<a href="images/easter-bunny-cart-lg.png"><img src="images/easter-bunny-cart-thumb.png" alt="Easter Bunny with cart" height="150" width="150"></a>
+						<figcaption>Easter Bunny with cart</figcaption>
+					</figure>
+					<p>This is the Easter Bunny pushing a garden cart. I would love to see his garden. How does he grow all those eggs to share every year? Must be a lot of work. Maybe he can get the Little Red Hen to help him? So cute!</p>
+				</div>
+				<div class="gallery-container">
+					<figure>
+						<a href="images/easter-bunny-eggs-lg.png"><img src="images/easter-bunny-eggs-thumb.png" alt="Easter Bunny with pile of eggs" height="150" width="150"></a>
+						<figcaption>Easter Bunny with pile of eggs</figcaption>
+					</figure>
+					<p>This is the Easter Bunny managing his pile of eggs. That is a big pile of eggs! I think he must have gone hunting before the kids got there. Reminds me of a leprechaun hoarding his crock of gold.</p>
+				</div>
+				<div class="gallery-container">
+					<figure>
+						<a href="images/easter-bunny-car-lg.png"><img src="images/easter-bunny-car-thumb.png" alt="Easter Bunny in car" height="150" width="150"></a>
+						<figcaption>Easter Bunny in car</figcaption>
+					</figure>
+					<p>This is the Easter Bunny driving in a car. I think he looks more like a donkey than a bunny to me. I guess they even let the magical Easter Bunny get a driver's license now?</p>
+				</div>
+				<div class="gallery-container">
+					<figure>
+						<a href="images/easter-bunny-heavy-load-lg.png"><img src="images/easter-bunny-heavy-load-thumb.png" alt="Easter Bunny holding eggs" height="150" width="150"></a>
+						<figcaption>Easter Bunny holding eggs</figcaption>
+					</figure>
+					<p>This Easter Bunny is holding a big load of eggs. He appears to be holding as many eggs as he can. Anymore and he will likely fall over backwards!</p>
+				</div>
+				<div class="gallery-container">
+					<figure>
+						<a href="images/easter-bunny-hoppy-lg.png"><img src="images/easter-bunny-hoppy-thumb.png" alt="Easter Bunny hopping along" height="150" width="150"></a>
+						<figcaption>Easter Bunny hopping along</figcaption>
+					</figure>
+					<p>This Easter Bunny is happy just hopping along. He's got his basket and a lot of spirit. Where are those kids?!? We need to give out these eggs!</p>
+				</div>
+				<div class="gallery-container">
+					<figure>
+						<a href="images/easter-bunny-paint-lg.png"><img src="images/easter-bunny-paint-thumb.png" alt="Easter Bunny painting eggs" height="150" width="150"></a>
+						<figcaption>Easter Bunny painting eggs</figcaption>
+					</figure>
+					<p>This is the Easter Bunny painting his eggs for the kids. What an artist this Easter Bunny is! How does he come up with all these variations and designs?</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<h2>My Avatar The Easter Bunny</h2>
+			<p>Dallas College WebDev &copy; 2021</p>
+		</footer>
+		<script>
+			function toggleMenu() {
+				var x = document.getElementById("myTopnav");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+				} else {
+					x.className = "topnav";
+				}
+			}
+		</script>
+	</body>
+
+</html>

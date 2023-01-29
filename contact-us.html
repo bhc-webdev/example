@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+	 <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Love+Ya+Like+A+Sister&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Love+Ya+Like+A+Sister&display=swap');
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <img src="images/easter-bunny-150-profile.png">
+    </header>
+    <nav id="myTopnav" class="topnav">
+      <a href="index.html">Home</a>
+      <a href="faq.html">FAQs</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact-us.html">Contact Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">Menu</a>
+    </nav>
+  
+    <main>
+		<section>
+			<h2>Party Time!</h2>
+			<p>We have lots of fun planned this year for our celebration. We hope you can find time on one of the days listed in the schedule below to join us for some rollicking fun!</p>
+			<table border="1" cellpadding="2">
+				<caption>Party Schedule</caption>
+				<thead>
+					<tr>
+						<th colspan="4">Below are a list of party times for you.</th>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<th scope="col">Place</th>
+						<th scope="col">Day</th>
+						<th scope="col">Time</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Rabbit Games </th>
+						<td>in the Backyard</td>
+						<td>Friday</td>
+						<td>4 p.m. - 5 p.m.</td>
+					</tr>
+					<tr>
+						<th scope="row">Sing-A-Long </th>
+						<td>at the Picnic Tables</td>
+						<td>Saturday</td>
+						<td rowspan="2">9 a.m. - 10 a.m.</td>
+					</tr>
+					<tr>
+						<th scope="row">Egg Hunt </th>
+						<td>in the Meadow</td>
+						<td>Sunday</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="4">This is a sample table with caption, header, footer and accessibility features.</td>
+					</tr>
+				</tfoot>
+			</table>
+			<h3>Disclaimer</h3>
+			<blockquote class="accent1">Please note that this table includes some elements that are depricated in the HTML5 standards. We know this will flag errors in the W3 validator service for cellpadding and border. We are choosing to use these old methods for demonstration purposes at this time to simplify the activity. Changes will be made later in the course when CSS styles have been introduced.<br>
+			~~The Management</blockquote>
+			<h2>Send Us a Message</h2>
+			<p>Use this form to send us a message. We would love to hear from you!</p>
+			<fieldset>
+				<legend>Contact Information</legend>
+				<form method="post" action="mailto:sherd@dcccd.edu">
+	
+					<p class="accent1">What is your name?</p>
+					<label for="name">Your Name</label>
+					<input type="text" id="name" name="name" value="">
+	
+					<p class="accent1">Who is your favorite sibling?</p>
+					<Label for="brother">Brother</Label>
+					<input type="radio" id="brother" name="sibling" value="brother">&emsp;
+					<label for="sister">Sister</label>
+					<input type="radio" id="sister" name="sibling" value="sister">&emsp;
+					<label for="none">Yuck!</label>
+					<input type="radio" id="none" name="sibling" value="yuck">
+					
+					<p class="accent1"><label for="games">What is your favorite game?</label></p>
+					<select id="games" name="games">
+						<option value="egg hunt">Hunting for Easter Eggs</option>
+						<option value="party bingo">Easter Egg Party Bingo</option>
+						<option value="ring toss">Easter Egg Ring Toss</option>
+					</select>
+					
+					<p class="accent1">What is your favorite candy?</p>
+					<input type="checkbox" name="candy" id="bunnies" value="Chocolate Bunnies">&nbsp;<label for="bunnies">Chocolate Bunnies</label>&emsp;
+					<input type="checkbox" name="candy" id="eggs" value="Candy Eggs">&nbsp;<label for="eggs">Candy Eggs</label>&emsp;
+					<input type="checkbox" name="candy" id="beans" value="Jelly Beans">&nbsp;<label for="beans">Jelly Beans</label>
+	
+					<p class="accent1"><label for="message">What is your message?</label></p>				
+					<textarea id="message" name="message"></textarea>
+	
+					<p>
+						<input type="submit" value="Send Request">
+						<input type="reset" value="Clear Form">
+					</p>
+					
+				</form>
+			</fieldset>
+		</section>
+	 </main>
+	<footer>
+	  <h2>My Avatar The Easter Bunny</h2>
+	  <p>Dallas College WebDev &copy; 2021</p>
+	  </footer>
+	  <script>
+		function toggleMenu() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			 x.className += " responsive";
+		  } else {
+			 x.className = "topnav";
+		  }
+		}
+	  </script>
+  </body>
+</html>
