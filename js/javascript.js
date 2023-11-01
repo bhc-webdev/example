@@ -61,10 +61,11 @@ $(document).ready(function () {
     // $('aside a') selects all a elements in the aside element
     $('aside a').each(function () {
         // gets the href value and the text value for the current a element and stores in variables
-        teamlink = $(this).attr('href');
-        teamname = $(this).text();
+        teamLink = $(this).attr('href');
+        teamName = $(this).text();
+        className = $(this).parent().attr('id');
         // adds a node in the #footnav navigation area in the footer for each link by appending a node
-        $('#footnav').append(`<a href="${teamlink}" class="${fav}">${teamname}</a> | `);
+        $('#footnav').append(`<a href="${teamLink}" class="${className}">${teamName}</a> | `);
     })
 });
 
@@ -77,8 +78,8 @@ function changeText(team, fav) {
     // create a teamlogo variable to use as an id selector by concatenating the # the team identifier and the word logo
     teamlogo = `#${fav}logo`;
     // the team logo variable is used to retrieve the href value to use as the link and text for the link in the body of the page (#site)
-    teamlink = $(teamlogo).attr('href');
-    $('#site').attr('href', teamlink).text(`the ${team} Web Page`).addClass(fav);
+    teamLink = $(teamlogo).attr('href');
+    $('#site').attr('href', teamLink).text(`the ${team} Web Page`).addClass(fav);
 }
 
 // changePhoto creates the image filename by concatenating the team identifier with image1.jpg and replaces the src attribute for #photo1
