@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+        Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>JavaScript Intro to jQuery Example</title>
+    <meta name="description" content="" />
+    <meta name="author" content="P Burks" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <link rel="stylesheet" href="css/js.css" />
+    <style>
+        h4 {
+            text-align: center;
+            color: #060;
+            font-weight: bold;
+            font-family: chaucer, Comic Sans, cursive;
+        }
+
+        #sportsLogo {
+            float: right;
+            padding-right: 15px;
+        }
+
+        #img1 {
+            float: left;
+        }
+
+        aside {
+            float: right;
+            width: 200px;
+        }
+
+        aside img {
+            width: 100px;
+            height: 100px;
+        }
+
+        footer {
+            clear: both;
+        }
+
+        #mavericks a, .mavericks {
+            color: #005fac;
+        }
+
+        #cowboys a, .cowboys {
+            color: #1b294b;
+        }
+
+        #rangers a, .rangers {
+            color: #be0f34;
+        }
+
+        #stars a, .stars {
+            color: goldenrod;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/javascript.js"></script>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>JavaScript Intro to jQuery Example</h1>
+            <h2>Sports Fan Page</h2>
+        </header>
+        <aside>
+            <p id="mavericks">
+                <a href="http://www.nba.com/mavericks/" id="mavslogo">
+                    <img src="images/mavericks_logo.png" alt="Dallas Mavericks Logo" title="Dallas Mavericks">
+                    <br>Dallas Mavericks
+                </a>
+            </p>
+            <p id="cowboys">
+                <a href="http://www.dallascowboys.com/" id="cowboyslogo">
+                    <img src="images/cowboys_logo.png" alt="Dallas Cowboys Logo" title="Dallas Cowboys">
+                    <br>Dallas Cowboys
+                </a>
+            </p>
+            <p id="rangers">
+                <a href="http://texas.rangers.mlb.com" id="rangerslogo">
+                    <img src="images/rangers_logo.png" alt="Texas Rangers Logo" title="Texas Rangers">
+                    <br>Texas Rangers
+                </a>
+            </p>
+            <p id="stars">
+                <a href="http://stars.nhl.com/" id="starslogo">
+                    <img src="images/stars_logo.png" alt="Dallas Stars Logo" title="Dallas Stars">
+                    <br>Dallas Stars
+                </a>
+            </p>
+        </aside>
+        <section>
+            <h3>Welcome to the fan site of <span class="dallas">Dallas Sports!</span></h3>
+            <figure>
+                <img src="images/dallas_skyline.png" alt="Dallas Skyline" id="photo1">
+            </figure>
+            <p>For more information about <span class="dallas">Dallas Sports</span>, visit <a href="http://www.dallasnews.com/sports/" id="site">the Dallas Morning News Sports Page</a></p>
+        </section>
+        <footer>
+            <hr>
+            <nav id="footnav"></nav>
+            <p>BHC WebDev at Dallas College <br> Intro to jQuery Example</p>
+        </footer>
+    </main>
+</body>
+
+</html>
