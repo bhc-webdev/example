@@ -64,7 +64,7 @@ $(document).ready(function () {
         teamlink = $(this).attr('href');
         teamname = $(this).text();
         // adds a node in the #footnav navigation area in the footer for each link by appending a node
-        $('#footnav').append(`<a href="${teamlink}">${teamname}</a> | `);
+        $('#footnav').append(`<a href="${teamlink}" class="${fav}">${teamname}</a> | `);
     })
 });
 
