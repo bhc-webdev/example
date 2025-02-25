@@ -25,16 +25,13 @@ This repository contains a **basic static website** built with **HTML, CSS, and 
 │── contact-us.html   # Contact Form Page
 │── javascript.html   # JavaScript Demo Page
 │── /css             # Stylesheets
+│   ├── js.css
 │   ├── styles.css
-│   └── gallery.css
+│   └── layout.css
 │── /js              # JavaScript Files
-│   ├── script.js
-│   └── form-validation.js
+│   └── javascript.js
 │── /images          # Site Images
-│   ├── logo.png
-│   ├── gallery1.jpg
-│   ├── gallery2.jpg
-│   └── banner.jpg
+│   └── /* various site images */
 │── README.md        # Project Documentation
 ```
 
